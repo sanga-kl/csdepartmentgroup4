@@ -1,7 +1,7 @@
 body{
     font-family: Kumbh Sans;
     width: auto;
-    zoom: 100%;
+    -moz-transform: scale(0.9);
 }
 
 .nav {
