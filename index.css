@@ -5,7 +5,7 @@ body{
 }
 
 .nav {
-    width: 99%; 
+    width: 100%; 
     padding-top: 21px; 
     padding-bottom: 21px; 
     background: rgba(255, 255, 255, 0.50); 
@@ -18,6 +18,8 @@ body{
     top: 0;
     position: fixed;
     z-index: 1;
+    
+    
 }
 
 .left-sec {
@@ -141,7 +143,6 @@ body{
 }
 
 .header {
-    padding-top:5%;
     height: 87px;
     padding-left: 90px;
     padding-right: 90px;
@@ -261,7 +262,6 @@ body{
 }
 
 .title2 {
-    padding-top:5%;
     color: black;
     font-size: 45px;
     font-weight: 700;
@@ -278,15 +278,14 @@ body{
 
 .degrees-container {
     height: 100%;
-    padding-left: 263px;
     padding-right: 90px;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 200px;
+    gap: 120px;
     display: inline-flex;
-    margin-left: 263px;
     padding-top: 50px;
-    padding-top:6%;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
@@ -344,7 +343,6 @@ body{
 }
 
 .events-header {
-    padding-top:5%;
     align-self: stretch;
     height: 83px;
     padding-left: 90px;

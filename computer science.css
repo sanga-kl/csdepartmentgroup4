@@ -141,7 +141,6 @@ html, body {
 .image-container {
   width: 50%;
   height: 55%;
-
 }
 
 .gradient-image {
@@ -150,24 +149,31 @@ html, body {
   background: linear-gradient(0deg, #D9D9D9 0%, #D9D9D9 100%);
 }
 
-.styled-container {
-  width: 10%;
-  height: 2%;
+.handbook-btn {
+  width: 15%;
+  height: 50px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 30px;
   background: #1E12A8;
   border-radius: 20px;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-  display: inline-flex;
-  margin-left: 8%;
-  margin-top: 5%;
+  margin-left: 7.8%;
+
+  margin-top: 50px;
   transition: 0.3s;
   cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 500;
 }
-.styled-container:hover{background-color: rgb(0, 0, 0);}
+
+.handbook-btn:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+
+
 
 
 .text-content {
