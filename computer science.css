@@ -2,9 +2,13 @@ body{
   font-family: Kumbh Sans;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .nav {
-  width: 100%; 
+  width: 99%; 
   padding-top: 21px; 
   padding-bottom: 21px;
   background: rgba(255, 255, 255, 0.50); 
@@ -103,8 +107,8 @@ body{
   font-weight: 800;
   text-transform: uppercase;
   line-height: 90px;
-  margin-left: 5%;
-  margin-top: 8%;
+  margin-top: 10%;
+  text-align: center;
 }
 
 .styled-div {
