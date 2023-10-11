@@ -1,7 +1,6 @@
 body{
     font-family: Kumbh Sans;
     width: auto;
-    -moz-transform: scale(0.9);
 }
 
 .nav {
@@ -296,6 +295,7 @@ body{
     display: inline-flex;
     transition: 0.3s;
     cursor: pointer;
+    text-decoration: none;
 }
 .degree:hover{
     background-color: rgb(218, 214, 214);
