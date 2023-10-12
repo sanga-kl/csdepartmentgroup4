@@ -16,7 +16,7 @@ html, body {
   backdrop-filter: blur(20px); 
   justify-content: center; 
   align-items: center; 
-  gap: 384px; 
+  gap: 250px; 
   display: inline-flex;
   position: fixed;
   top: 0;
