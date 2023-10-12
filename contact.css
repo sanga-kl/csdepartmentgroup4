@@ -229,7 +229,7 @@ html, body {
   font-size: 45px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
   line-height: 67.50px;
   word-wrap: break-word;
   margin-top: 5%;
