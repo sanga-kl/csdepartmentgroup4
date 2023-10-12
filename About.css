@@ -16,7 +16,7 @@ html, body {
     backdrop-filter: blur(20px); 
     justify-content: center; 
     align-items: center; 
-    gap: 384px; 
+    gap: 350px; 
     display: inline-flex;
     position: fixed;
     top: 0;
@@ -74,7 +74,6 @@ html, body {
     align-items: center; 
     gap: 50px; 
     display: inline-flex;
-    margin-right: -5%;
 }
 
 .options{
@@ -161,125 +160,6 @@ html, body {
     text-align: justify;
 }
 
-.leadership-heading {
-    color: black;
-    font-size: 45px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 67.50px;
-    margin-top: 8%;
-    margin-left: 5%;
-}
-
-.separator-line {
-    width: 1850px;
-    height: 0px;
-    border: 1px #666666 solid;
-    margin-left: 5%;
-    margin-top: 2%;
-}
-.dean-container{
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-    margin-top: 3%;
-    margin-left: 5%; 
-}
-.image-container {
-    width: 330px;
-    height: 400px;
-    border-radius: 30px;
-    background: linear-gradient(0deg, #D9D9D9 0%, #D9D9D9 100%);
-}
-
-.image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.fac{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.faculty-dean {
-    color: black;
-    font-size: 39px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 58.50px;
-    margin-top: -15px;
-}
-.dean-name {
-    color: black;
-    font-size: 26px;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 39px;
-    word-wrap: break-word;
-}
-
-
-.position,
-.email {
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    word-wrap: break-word;
-    display: block; /* Display each line as a block to create the line break */
-}
-
-.email {
-    text-decoration: underline;
-}
-
-.education-section {
-    height: 100%;
-    text-align: justify;
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    word-wrap: break-word;
-    margin-top: 3%;
-}
-
-.qualification {
-    margin-bottom: 10px;
-    list-style-type: circle;
-}
-
-.hod-container {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-    margin-top: 5%;
-    margin-left: 5%; 
-}
-.faculty-hod {
-    color: black;
-    font-size: 39px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 58.50px;
-    margin-top: -15px;
-}
-
-.hod-name {
-    color: black;
-    font-size: 26px;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 39px;
-    word-wrap: break-word;
-}
 
 .section-title {
     color: black;
@@ -371,7 +251,7 @@ html, body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 165px;
+    gap: 400px;
 }
 
 .logo-section {
@@ -418,5 +298,55 @@ html, body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 68px;
+    gap: 5px;
+}
+
+
+.phone-info,
+.email-info {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 5%;
+}
+
+.phone-label,
+.email-label,
+.address-title {
+  color: white;
+  font-size: 25px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 67.50px;
+  word-wrap: break-word;
+  margin-top: 1%;
+}
+
+.phone-number,
+.email-address {
+  color: white;
+  font-size: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+  margin-top: 0;
+}
+
+.address {
+    align-self: stretch;
+    color: white;
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-top: 0;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
