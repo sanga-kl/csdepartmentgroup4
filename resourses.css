@@ -372,6 +372,11 @@ html, body {
     margin-top: 0;
   }
 
+  .links {
+    text-decoration: none;
+    color: black;
+  }
+
   .links:visited { 
     text-decoration: none; 
     color: black; 
