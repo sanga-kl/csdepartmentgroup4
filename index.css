@@ -14,7 +14,7 @@ body{
     backdrop-filter: blur(20px); 
     justify-content: center; 
     align-items: center; 
-    gap: 200px; 
+    gap: 350px; 
     display: inline-flex;
     top: 0;
     position: fixed;
@@ -74,7 +74,6 @@ body{
     align-items: center; 
     gap: 50px; 
     display: inline-flex;
-    margin-right: -5%;
 }
 
 .options{
