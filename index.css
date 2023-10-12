@@ -1,6 +1,7 @@
 body{
     font-family: Kumbh Sans;
     width: auto;
+    transform: scale();
     -moz-transform: scale(0.9);
 }
 
