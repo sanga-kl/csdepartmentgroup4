@@ -165,13 +165,22 @@ html, body {
   font-size: 18px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 500;
+  text-decoration: none;
+  color: white;
 }
 
 .handbook-btn:hover {
   background-color: rgb(0, 0, 0);
 }
 
+.handbook-btn a {
+  text-decoration: none;
+}
 
+.handbook-btn a:visited{
+  text-decoration: none;
+  color: white;
+}
 
 
 
