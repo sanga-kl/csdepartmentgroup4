@@ -246,6 +246,11 @@ html, body {
     text-align: center;
 }
 
+.technology-card a{
+    text-decoration: none;
+    justify-content: center;
+}
+
 .footer-container {
     height: 100%;
     padding-top: 37px;
