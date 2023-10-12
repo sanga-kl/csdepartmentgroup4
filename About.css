@@ -111,6 +111,14 @@ html, body {
     margin-left: 5%;
 }
 
+.separator-line {
+    width: 1850px;
+    height: 0px;
+    border: 1px #666666 solid;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
 .department-description {
     width: 50%;
     height: 50%;
