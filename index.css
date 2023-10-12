@@ -495,6 +495,38 @@ a {
     text-decoration: none;
 }
 
+.phone-info,
+.email-info {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 2%;
+}
+
+.phone-label,
+.email-label {
+  color: white;
+  font-size: 45px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 67.50px;
+  word-wrap: break-word;
+  margin-top: 1%;
+}
+
+.phone-number,
+.email-address {
+  color: white;
+  font-size: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+  margin-top: 1%;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
