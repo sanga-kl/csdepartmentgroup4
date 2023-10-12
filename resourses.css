@@ -126,6 +126,7 @@ html, body {
   display: inline-flex;
   margin-top: 5%;
   margin-left: 10%;
+  text-decoration: none;
 }
 
 .title-container {
@@ -135,6 +136,7 @@ html, body {
   display: inline-flex;
   transition: 0.3s;
   cursor: pointer;
+  
 }
 .title-container:hover{opacity: 0.6;}
 
@@ -146,6 +148,7 @@ html, body {
   text-transform: capitalize;
   line-height: 67.50px;
   word-wrap: break-word;
+  text-decoration: none;
 }
 
 .icon-container {
