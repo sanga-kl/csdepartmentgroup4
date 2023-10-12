@@ -371,3 +371,8 @@ html, body {
     word-wrap: break-word;
     margin-top: 0;
   }
+
+  .links:visited { 
+    text-decoration: none; 
+    color: #0000EE; 
+  }
